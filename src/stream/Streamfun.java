@@ -19,13 +19,12 @@ public class Streamfun {
 		
 		//creating a stream using set of values
 		Stream <Integer> st=Stream.of(1,2,3,4,5);
-		Stream<Integer> star;
+		
+		
 		//Creating a stream from array
 		Integer[] ar=new Integer[] {10,9,7,6,8,6,9};
-		star=Arrays.stream(ar);
-		
-		
-		//intermediate methods ------map,filter,limit,distinct,sorted,skip
+		//Stream<Integer> star = Arrays.stream(ar);
+		 //intermediate methods ------map,filter,limit,distinct,sorted,skip
 		System.out.println("Intermediate methods...........................");
 		//map
 		System.out.println("1.Map");

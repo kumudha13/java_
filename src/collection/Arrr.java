@@ -14,7 +14,7 @@ public class Arrr {
 	 ob.add(2);
 	 ob.add(3);
 	 ob.add(4);
-	 Iterator it=ob.iterator();
+	 Iterator<Integer> it=ob.iterator();
 	 while(it.hasNext())
 	 {
 		 
